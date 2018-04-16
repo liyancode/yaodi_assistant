@@ -1,1 +1,105 @@
-//style.css
+/*//style.css*/
+/* import bootstrap css from cdn*/
+/*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');*/
+
+.navbar-fixed-top {
+	background-color: #009a60;
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	border-radius: 0;
+    border: 0;
+    top: 0;
+}
+.header{
+	box-shadow: 0 3px 1px #ebebeb;
+    background: #009a60;
+    color: #fff !important;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #009a60;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #009a60;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #009a60;
+}
+.navbar-nav>li>span {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav>li{
+	text-align: center;
+}
+.content{
+	height: 100%;
+	margin-top: 51px;
+}
+.footer {
+	/*width: 100%;
+	text-align: center;
+    color: #009a60;
+    padding: 12px 0;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 70px;
+    position:absolute;
+    bottom:0px;
+    left:0px;*/
+    /*background: url(img/yaodilogo_footer.png) right no-repeat;*/
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #009a60;
+}
+.bs-docs-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+}
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.placeholder {
+    margin-bottom: 20px;
+}
+.color-block{
+	/*background-color: #009a60;*/
+	width: 140px;
+    height: 140px;
+    /*float: left;*/
+    margin: 0 5px;
+    border-radius: 9px;
+    color: white;
+    font-size: 18px;
+}
+.color-block:hover{
+	color: white;
+}
+.color-block>span{
+	top:2px;
+	right:3px;
+}
+.back-btn-inline{
+	display: inline;
+	float: left;
+}
+.pricelist-table-div{
+	padding: 12px;
+	border: 1px solid #f5f5f5;
+}
+
